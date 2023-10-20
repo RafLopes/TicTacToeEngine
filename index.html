@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    
+  </head>
+
+  <body>
+    
+    <h2>Tic Tac Toe</h2>
+
+    <table>
+      <tr>
+        <th> </th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <th>3</th>
+        <th id="0">-</th>
+        <th id="1">-</th>
+        <th id="2">-</th>
+      </tr>
+      <tr>
+        <th>2</th>
+        <th id="3">-</th>
+        <th id="4">-</th>
+        <th id="5">-</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th id="6">-</th>
+        <th id="7">-</th>
+        <th id="8">-</th>
+      </tr>
+    </table>
+
+    <br><br>
+    <h2 id="Resultado"></h2>
+
+    <label>Linha: </label>
+    <input style="margin-top: 50px;" id="linha" type="number" min="1" max="3" value=1>
+    <br>
+    <label>Coluna: </label>
+    <input id=coluna type="number" min="1" max="3" value=1>
+    <br>
+    <input type="submit" value="Lance" id="BtnLance">
+    <br><br>
+    <input type="submit" value="Lance Aleatório" id="BtnLanceAI">
+    <br><br>
+    <input type="submit" value="Melhor lance" id="BtnMelhorLance">
+    <br><br>
+    <input type="submit" value="Melhor lance Alpha-Beta" id="BtnMelhorLanceAlphaBeta">
+    <br><br>
+    <input type="submit" value="Reiniciar jogo" id="BtnReiniciarJogo">
+
+    
+    <script src="JS/alphabeta.js"></script>
+    <script src="JS/def.js"></script>
+    <script src="JS/jogo.js"></script>
+    <script src="JS/io.js"></script>
+    <script src="JS/minmax.js"></script>
+    
+
+  </body>
+
+</html>
